@@ -1,51 +1,79 @@
-body {
-  display: flex;
-  justify-content: center;
-
-}
-
-
-.container1 {
-  display: flex;
-  flex-direction: column;
-  font-size: 15px;
-  background-color: #f1f1f1;
-  padding: 20px;
-  
+.grid {
+   display: grid; 
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+   gap: 0px;
+   height: 100%;
+   
 }
 
 img {
-  border-radius: 50%;
-}
-
-.smallcontainer {
-  display: flex;
-  align-items: center;
-}
-
-.container2 {
-  display: flex;
-  justify-content: center;
-  background-color: lightgray;
-  padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.container3 {
-  display: flex;
+   display: block;
+    border-radius: 200px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 2px solid green;
+    height: 70px;
+    width: 70px
   
-  background-color: #f1f1f1;
-  margin: 0px;
-  padding: 20px;
 }
-
-
-.flex-container > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 70%;
-  align-items: center;
-
+  
+#item-0 {
+   display: grid;
+   align-items: center;
+   justify-items: center;
+   background-color: #F5F5F5; 
+   grid-row-start: 1;
+   grid-column-start: 3;
+   grid-row-end: 2;
+   grid-column-end: 5;
+  height: 100px;
+  width: 200px;
+   
+   
+}
+#item-1 {
+  display: grid;
+   align-items: center;
+   justify-items: center;
+   background-color: lightgray; 
+   grid-row-start: 2;
+   grid-column-start: 3;
+   grid-row-end: 3;
+   grid-column-end: 5;
+   
+}
+#item-2 {
+   display: grid;
+   align-items: center;
+   justify-items: center;
+   background-color: #F5F5F5; 
+   grid-row-start: 3;
+   grid-column-start: 3;
+   grid-row-end: 4;
+   grid-column-end: 5;
+   
+}
+#item-3 {
+    display: grid;
+   align-items: center;
+   justify-items: center;
+   background-color: limegreen; 
+   grid-row-start: 4;
+   grid-column-start: 3;
+   grid-row-end: 5;
+   grid-column-end: 4;
+  height: 55px;
+   
+}
+#item-4 {
+  display: grid;
+   align-items: center;
+   justify-items: center;
+   background-color: green; 
+   grid-row-start: 4;
+   grid-column-start: 4;
+   grid-row-end: 5;
+   grid-column-end: 5;
+   height: 55px;
 }
