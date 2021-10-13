@@ -4,40 +4,48 @@ body {
 
 }
 
-[class*="col-"] {
-  width: 100%;
-}
 
 .container1 {
   display: flex;
   flex-direction: column;
-  background-color: limegreen;
+  font-size: 15px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  
 }
 
 img {
   border-radius: 50%;
 }
 
+.smallcontainer {
+  display: flex;
+  align-items: center;
+}
+
 .container2 {
   display: flex;
-  flex-direction: column;
-  background-color: limegreen;
+  justify-content: center;
+  background-color: lightgray;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container3 {
   display: flex;
-  flex-direction: column;
-  background-color: limegreen;
+  
+  background-color: #f1f1f1;
+  margin: 0px;
+  padding: 20px;
 }
 
 
 .flex-container > div {
   display: flex;
+  align-items: center;
   justify-content: center;
   width: 70%;
   align-items: center;
-  background-color: #f1f1f1;
-  margin: 0px;
-  padding: 40px;
-  font-size: 10px;
+
 }
