@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  background-color: limegreen;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  background-color: limegreen;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  background-color: limegreen;
+}
+
+
+.flex-container > div {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  align-items: center;
+  background-color: #f1f1f1;
+  margin: 0px;
+  padding: 40px;
+  font-size: 10px;
+}
